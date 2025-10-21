@@ -17,7 +17,7 @@ jobs:
         run: go build -v ./...
 
   tests:
-    # Задание "tests" зависит от задания "build" и будет выполнено после него
+    # Задание "tests" зависит от задания "build" и
     needs: build
     runs-on: ubuntu-latest
     steps:
